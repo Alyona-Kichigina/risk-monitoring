@@ -1,0 +1,59 @@
+{
+  "name": "evaluation_analysis_investment_projects",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@ant-design/icons": "^4.7.0",
+    "@handsontable/react": "^12.1.3",
+    "@nivo/bar": "^0.80.0",
+    "@nivo/core": "^0.80.0",
+    "@nivo/pie": "^0.80.0",
+    "@react-buddy/ide-toolbox": "^2.2.1",
+    "@react-buddy/palette-antd": "^4.1.2",
+    "@testing-library/jest-dom": "^5.16.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "antd": "^4.23.0",
+    "axios": "^0.27.2",
+    "handsontable": "^12.1.3",
+    "memoize-one": "^6.0.0",
+    "node-sass": "^7.0.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.4.0",
+    "react-perfect-scrollbar": "^1.5.8",
+    "react-router-dom": "^6.3.0",
+    "react-scripts": "5.0.1",
+    "recoil": "^0.7.5",
+    "sass-loader": "^13.0.2",
+    "styled-components": "^5.3.5",
+    "tailwindcss": "^3.1.8",
+    "web-vitals": "^2.1.4",
+    "webpack": "^5.74.0",
+    "webpack-dev-server": "^4.11.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test",
+    "eject": "react-scripts eject"
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
