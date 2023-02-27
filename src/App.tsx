@@ -1,4 +1,4 @@
-import {Navigate, Redirect, Route, Routes, useNavigate, Suspense} from "react-router-dom"
+import {Navigate, Route, Routes, useNavigate} from "react-router-dom"
 import {useCallback, useEffect, useLayoutEffect, useState, useMemo} from "react";
 import Login from "./Page/Login";
 import Main from "./Page/Main";

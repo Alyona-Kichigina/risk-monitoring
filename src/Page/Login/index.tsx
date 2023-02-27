@@ -3,10 +3,10 @@ import { Button, Form, Input } from 'antd';
 import {PageContainer, ContentContainer, FormContainer} from "./styles"
 import {useNavigate} from "react-router-dom";
 
-const Login = ({ loginRequest }) => {
+const Login = ( loginRequest: any ) => {
   const navigate = useNavigate();
 
-  const onFinishFailed = (errorInfo) => {
+  const onFinishFailed = (errorInfo: any) => {
     console.log('Failed:', errorInfo);
   };
   return (

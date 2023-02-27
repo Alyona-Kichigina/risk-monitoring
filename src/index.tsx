@@ -15,22 +15,24 @@ import "./Style/style-text.scss"
 import "./Style/table-style.scss"
 import 'antd/dist/antd.css';
 import {DevSupport} from "@react-buddy/ide-toolbox";
-import {ComponentPreviews, useInitial} from "./dev";
+// import {ComponentPreviews, useInitial} from "./dev";
 
 
 const history = createBrowserHistory()
+const rootElement = document.getElementById('root');
+if (!rootElement) throw new Error('Failed to find the root element');
+const root = ReactDOM.createRoot(rootElement);
 
-ReactDOM.render(
+root.render(
   <React.StrictMode>
     <RecoilRoot>
       <BrowserRouter history={history}>
-        <DevSupport ComponentPreviews={ComponentPreviews}
-                    useInitialHook={useInitial}
-        >
+        {/*<DevSupport ComponentPreviews={ComponentPreviews}*/}
+        {/*            useInitialHook={useInitial}*/}
+        {/*>*/}
           <App/>
-        </DevSupport>
+        {/*</DevSupport>*/}
       </BrowserRouter>
     </RecoilRoot>
-  </React.StrictMode>,
-  document.getElementById("root"),
+  </React.StrictMode>
 );
