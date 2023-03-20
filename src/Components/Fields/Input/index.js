@@ -9,6 +9,7 @@ class Input extends Component {
   constructor(props) {
     super(props)
     this.state = { height: "" }
+
     this.inputRef = React.createRef()
   }
 
